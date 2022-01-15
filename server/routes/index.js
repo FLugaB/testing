@@ -8,4 +8,9 @@ router.get('/', (req, res) => {
   res.send('This is New Routes')
 })
 
+router.post('/', (req, res) => {
+  res.send('Post route ')
+})
+
 module.export = router
+
